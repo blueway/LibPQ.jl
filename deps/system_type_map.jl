@@ -1,5 +1,4 @@
 using LibPQ
-using NamedTuples
 
 function print_types(io::IO, conn::Connection; text_limit=92)
     nt = fetch!(
